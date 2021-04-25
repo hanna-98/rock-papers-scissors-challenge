@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS in game</title>
+</head>
+<body>
+    <h1> <%= name %> is playing! </h1>
+    <h2>Choose your move</h2>
+    <form action="/rock" method="POST" >
+        <input id="rock-button" type="submit" value="Rock" name="rock" />
+    </form>
+    <form action="/paper" method="POST" >
+        <input id="paper-button" type="submit" value="Paper" name="paper" />
+    </form>
+    <form action="/scissors" method="POST">
+        <input id="scissors-button" type="submit" value="Scissors" name="scissors" />
+    </form>
+    
+</body>
+</html>
