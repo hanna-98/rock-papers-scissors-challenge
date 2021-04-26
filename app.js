@@ -4,6 +4,7 @@ const port = 3001;
 
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.static('styles'));
 
 const RPS = require("./src/rps.js");
 const rps = new RPS();

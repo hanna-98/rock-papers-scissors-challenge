@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(247, 231, 95);
+    text-align: center;
+    font-family: 'Arial'
+  }
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+input {
+  text-transform: uppercase;
+  font-size: larger;
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid lightseagreen;
+  border-radius: 4px;
+  background-color: rgb(200, 179, 250);
+}
