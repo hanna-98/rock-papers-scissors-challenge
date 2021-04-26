@@ -12,8 +12,11 @@
     <h2> <%= player %> chose <%= move %> </h2>
     <h1> <%= status %> </h1>
 
-    <form action="/" method="GET">
-        <a href="/" id="new-game-link" >Play again</a>
+    <form action="/game" method="GET">
+        <a href="/game" id="play-again-link" >Play again</a>
+    </form><br>
+    <form action="/" method="POST">
+        <a href="/" id="new-game-link" >New player</a>
     </form>
 </body>
 </html>
